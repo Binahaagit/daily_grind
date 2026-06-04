@@ -7,8 +7,7 @@ class Solution:
         
         for n in nums:
             if n in s:
-                return True
-                
+                return True   
             s.add(n)
         return False
 
